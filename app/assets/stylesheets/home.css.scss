@@ -1,0 +1,21 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face{
+	font-family: 'book';
+	src: font-url('BOOKOS.TTF');
+}
+
+#intro_text {
+	font-size:72px;
+	line-height: 70px;
+	font-weight:450;
+	
+}
+
+#logo_link:hover{
+		background: #ffffff;
+}
+#come_and_find_out{
+
+}
