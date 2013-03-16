@@ -1,7 +1,8 @@
 Speny On Rails
 ===
 
-A Cleaner, better and awesomer version for [Spendy.ca](http://Spendy.ca) using Rails and Twitter Bootstrap
+A Cleaner, better and awesomer version for [Spendy.ca](http://Spendy.ca) (my old PHP site) 
+Using Rails and Twitter Bootstrap
 
 
 Screenshots: 
