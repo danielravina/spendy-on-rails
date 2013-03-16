@@ -1,4 +1,12 @@
 Speny On Rails
 ===
 
-A ruby-on-rails, cleaner and better version for [Spendy.ca](http://Spendy.ca)
+A Cleaner, better and awesomer version for [Spendy.ca](http://Spendy.ca) (my old PHP site) 
+Using Rails and Twitter Bootstrap
+
+
+Screenshots: 
+
+Home page:
+
+![ScreenShot](https://raw.github.com/danielravina/spendy-on-rails/master/app/assets/images/spendy_1.png)
