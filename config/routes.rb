@@ -1,7 +1,4 @@
 Spendy::Application.routes.draw do
-  resources :tests
-
-
   get "login/index"
 
   get "home/index"
