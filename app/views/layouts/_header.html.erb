@@ -1,13 +1,15 @@
-<div class='row'>
-	<div class='span10'>
-	
-		<%= link_to image_tag ('logo.png'), 'id'=>'logo_link'  %>
-	
+<header>
+	<div class='row'>
+		<div class='span10'>
+		
+			<%= image_tag 'logo.png', 'id'=>'logo_link'  %>
+		
+		</div>
+		<div class='span2'>
+			<ul class="nav nav-pills">
+			    <li><%= link_to 'Login', '#' %></li>
+			    <li><%= link_to 'Register', '#' %></li>
+			</ul>
+		</div>
 	</div>
-	<div class='span2'>
-		<ul class="nav nav-pills">
-		    <li><%= link_to 'Login', '#' %></li>
-		    <li><%= link_to 'Register', '#' %></li>
-		</ul>
-	</div>
-</div>
+</header>

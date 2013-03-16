@@ -11,14 +11,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-   
-<div class='container'>
-		<header>
-			<%= render :partial => 'layouts/header' %>
-		</header>
-		<%= yield %>
-		</div>
-	</div>
-</div>
+
+  <%= render :partial => 'layouts/header' %>
+
+
+	<%= yield %> <!-- container -->
+ 
+
+	 
+  <% # render :partial => 'layouts/footer' %>
+
 </body>
 </html>

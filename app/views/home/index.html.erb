@@ -1,34 +1,53 @@
-<div class='row'>
-	<div class='span8'>
-		<p id='intro_text'>Have you ever wondered how much you really spend every day? Week? Month?<br><br>
+<div class='container'>
+	<div class='row'>
+		<div class='span8'>
+			<p id='intro_text'>Have you ever wondered how much you really spend every day? Week? Month?
+		
+			<span>Probably not.</span>
+			</p>
 
-		Probably not.
-		</p>
-
+		</div> <!-- span left -->
+		<div class='span4'>
+			
+			<form class="form-vertical" id='login_form' method='get' action='<%= login_index_path %>'>
+				<legend id='come_and_find_out'>Come And find out with Spendy!</legend>
+			    <div class="control-group">
+				  <div class="controls">
+				    	<input type="text" id="inputUser" name='email' placeholder="Email">
+				    </div>
+			    </div>
+			    <div class="control-group">
+				    <div class="controls">
+				    	<input type="password" id="inputPassword" name='pwd' placeholder="Password">
+				    </div>
+			    </div>
+			    <div class="control-group">
+				    <div class="controls">
+					    <label class="checkbox">
+					    	<input type="checkbox"> Remember me
+					    </label>
+					    <button type="submit" class="btn btn-success">Sign in</button>
+				    </div>
+			    </div>
+		   </form>
+		</div> <!-- span right-->
+	</div> <!-- row1 -->
+	<hr>
+	<div class='row' id='promo_columns'>
+	<div class="span4">
+		<h3>It's Easy</h3>
+		<p>Lorem ipsum occaecat qui dolor aliquip sit in dolor id occaecat velit eiusmod consequat labore dolore Duis aute officia.</p>
 	</div>
-	<div class='span4'>
-	
-		<form class="form-vertical" id='login_form'>
-			<legend id='come_and_find_out'>Come And find out with Spendy!</legend>
-		    <div class="control-group">
-			  <div class="controls">
-			    	<input type="text" id="inputUser" placeholder="User Name">
-			    </div>
-		    </div>
-		    <div class="control-group">
-			    <div class="controls">
-			    	<input type="password" id="inputPassword" placeholder="Password">
-			    </div>
-		    </div>
-		    <div class="control-group">
-			    <div class="controls">
-				    <label class="checkbox">
-				    	<input type="checkbox"> Remember me
-				    </label>
-				    <button type="submit" class="btn btn-success">Sign in</button>
-			    </div>
-		    </div>
-	    </form>
+		<div class="span4">
+		<h3>It's Free</h3>
+		<p>Lorem ipsum in ut laboris deserunt voluptate est enim dolore officia ea mollit in occaecat ad. </p>
+	</div>
+		<div class="span4">
+		<h3>It's Everywhere</h3>
+		<p>Lorem ipsum consequat reprehenderit dolor exercitation do culpa sint in mollit aute est eiusmod laborum sint laborum et in. </p>
 	</div>
 
-</div>
+
+
+	</div> <!-- row 2 -->
+</div> <!-- container -->

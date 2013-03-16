@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  email: MyString
+  budget: 9.99
+  currency: 9.99
+
+two:
+  email: MyString
+  budget: 9.99
+  currency: 9.99

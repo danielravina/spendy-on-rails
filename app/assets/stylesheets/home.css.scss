@@ -1,21 +1,70 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-@font-face{
-	font-family: 'book';
-	src: font-url('BOOKOS.TTF');
-}
 
 #intro_text {
 	font-size:72px;
 	line-height: 70px;
-	font-weight:450;
+ 
+		span{
+		display: block;
+		font-size: 48px;
+		margin-top: 70px;
+
+	}
+}
+
+
+#logo_link{
+	// margin-left:60px;
+}
+$header-footer: #4C9929;
+
+header{
+	// background:$header-footer;
+	background-image: url('header.png');
+	-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.55);
+   -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.55);
+        box-shadow:0 1px 2px rgba(0, 0, 0, 0.55);
+
+}
+footer{
+	background:$header-footer;
+	position:absolute;
+	border-top:2px solid #6D6D6D;
+	left:0;
+	text-align:center;
+	width:100%;
+	min-height:60px;
+	bottom:0px;
 	
 }
 
-#logo_link:hover{
-		background: #ffffff;
-}
-#come_and_find_out{
+#promo_columns{
+	margin-top:50px;
+	margin-bottom:50px;
+	
+	p{
+		// font-size:24px;
+		line-height: 29px;
+
+	}
+	.span4{
+		padding:5px 20px;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box; /* Firefox */
+		-webkit-box-sizing:border-box; /* Safari */
+		background:#40AAFF;
+		height: 200px;
+
+	}
 
 }
+legend#come_and_find_out{
+	border-bottom: 1px solid #C8D1E0;
+}
+
+hr{
+	border-color:#B0C2D0;
+}
+

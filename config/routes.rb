@@ -1,4 +1,9 @@
 Spendy::Application.routes.draw do
+  resources :tests
+
+
+  get "login/index"
+
   get "home/index"
 
   # The priority is based upon order of creation:
