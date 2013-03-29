@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  attr_accessible :budget, :currency, :email
+  attr_accessible :budget, :currency , :email
 
   validates :email, :presence => true
   validates :pwd, :presence => true,
